@@ -1,0 +1,30 @@
+@font-face {
+    font-family:'Manrope';
+    src: url(fonts/Manrope-Regular.ttf);
+}
+
+body {
+    background-color: rgb(42, 42, 54);
+   
+}
+
+#über-div{
+    display: grid;
+justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+#impressum-div{
+font-family:Manrope ;
+font-size: 1rem;
+color: white;
+
+
+}
+
+#logo{
+    width: 10rem;
+    margin-top: 4rem;
+}

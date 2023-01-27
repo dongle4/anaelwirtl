@@ -1,0 +1,23 @@
+@font-face {
+    font-family:'Manrope';
+    src: url(fonts/Manrope-Regular.ttf);
+}
+
+body{
+    background-color: rgb(42, 42, 54);
+}
+#logo{
+    width: 10rem;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+#datenschutz-div{
+display: grid;
+font-family:Manrope ;
+font-size: 1rem;
+margin-left: 20%;
+margin-right: 20%;
+color: white;
+max-width: 80vw;
+}
