@@ -30,12 +30,13 @@
     opacity: 0.8;
     z-index: 100;
     transition:opacity 0.2s ;
+    margin-bottom: auto;
 
     
 }
 #menü-icon{
   display: flex;
-  justify-content: last baseline;
+  margin-bottom: auto;
   max-height: 3.2rem;
   margin: 0;
 
@@ -56,21 +57,21 @@
 
 }
 
-.bilder-div > * {
+.gallery-children > * {
     max-width: 100%;
     height: auto
        
 }
 
-.bilder-div > *{
+.gallery-children > *{
   margin-bottom: 2em;
 
 }
-.bilder-div > *{
+.gallery-children > *{
   border-radius:0.1rem ;
 }
 
-.bilder-div > *{
+.gallery-children > *{
   animation: fadeIn 2s forwards, slide-up 1s forwards;
 }
 
