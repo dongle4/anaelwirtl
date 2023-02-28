@@ -46,7 +46,7 @@
 }
 
 
-#gallery-div
+.gallery-div
 {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
@@ -89,7 +89,6 @@
   }
 }
 
-
 .video-gallery{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
@@ -99,5 +98,6 @@
   margin-right: 1.5em;
   margin-top: 7rem;
 }
+
 
 

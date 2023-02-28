@@ -104,9 +104,9 @@ body {
     max-width: 20rem;
 }
 
-@media (max-height:48rem){
+@media (max-width:48rem){
     #logo-icon{
-    max-width: 12rem;
+    max-width: 16rem;
 }
 }
 

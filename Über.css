@@ -42,6 +42,7 @@ html{
 }
 #über-text-div{
     padding-bottom: 3rem;
+    z-index: 102;
 }
 #menü-div {
     position: fixed;
@@ -91,6 +92,24 @@ html{
     justify-content:end;
     margin-right: 3rem;
     }
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+a:visited {
+    color: rgb(255, 255, 255);
+  }
+a:hover{
+    cursor: pointer;
+}
+  a:active {
+    font-size: 1.3em;
+  }
+
+#liste > * {
+    padding-bottom: 1.1em;
 }
 
 #footer-div{
